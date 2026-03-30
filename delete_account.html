@@ -1,47 +1,151 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>DoWish Account Deletion</title>
-  <style>
-    body { font-family: Arial, sans-serif; line-height: 1.6; padding: 20px; background: #f9f9f9; color: #333; }
-    .container { max-width: 800px; margin: auto; background: #fff; padding: 30px; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
-    a { color: #1a73e8; text-decoration: none; }
-    a:hover { text-decoration: underline; }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Account Deletion - DoWish</title>
+    <style>
+        :root {
+            --primary-color: #6c5ce7;
+            --secondary-color: #a29bfe;
+            --text-color: #2d3436;
+            --bg-color: #f9f9fb;
+            --card-bg: #ffffff;
+            --border-radius: 12px;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            color: var(--text-color);
+            background-color: var(--bg-color);
+            margin: 0;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 700px;
+            margin: 40px auto;
+            background: var(--card-bg);
+            padding: 40px;
+            border-radius: var(--border-radius);
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+        }
+
+        header {
+            text-align: center;
+            border-bottom: 2px solid var(--bg-color);
+            padding-bottom: 20px;
+            margin-bottom: 30px;
+        }
+
+        h1 {
+            color: var(--primary-color);
+            margin: 0;
+            font-size: 24px;
+        }
+
+        .last-updated {
+            font-size: 0.85rem;
+            color: #b2bec3;
+            margin-top: 5px;
+        }
+
+        h2 {
+            font-size: 18px;
+            color: var(--primary-color);
+            margin-top: 25px;
+        }
+
+        .steps-box {
+            background-color: #f1f0ff;
+            padding: 20px;
+            border-left: 4px solid var(--primary-color);
+            border-radius: 8px;
+            margin: 20px 0;
+        }
+
+        .email-link {
+            color: var(--primary-color);
+            font-weight: bold;
+            text-decoration: none;
+        }
+
+        .email-link:hover {
+            text-decoration: underline;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+
+        .warning-box {
+            background-color: #fff5f5;
+            border: 1px solid #feb2b2;
+            padding: 15px;
+            border-radius: 8px;
+            font-size: 0.9rem;
+            margin-top: 30px;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            font-size: 0.85rem;
+            color: #636e72;
+        }
+
+        @media (max-width: 600px) {
+            .container {
+                padding: 20px;
+                margin: 10px auto;
+            }
+        }
+    </style>
 </head>
 <body>
-  <div class="container">
-    <h1>Request Account Deletion – DoWish</h1>
 
-    <p><strong>Note:</strong> We may update or modify the account deletion process, email address, or instructions from time to time. Please check this page periodically for the latest instructions.</p>
+<div class="container">
+    <header>
+        <h1>Request Account Deletion</h1>
+        <p class="last-updated">Last Updated: March 30, 2026</p>
+    </header>
 
-    <p>If you wish to delete your DoWish account, created under the developer name <strong>DoWish</strong>, and all associated personal data, please follow the instructions below.</p>
-    
-    <h2>Steps to Delete Your Account</h2>
-    <ol>
-      <li>Send an email to <a href="mailto:dowish01@gmail.com">dowish01@gmail.com</a> with the subject line: <strong>"Delete My DoWish Account"</strong>.</li>
-      <li>Include in the email the **email address associated with your DoWish account**.</li>
-      <li>Our team will confirm your identity and process your deletion request within **7 business days**.</li>
-    </ol>
+    <p>At <strong>DoWish</strong>, we value your privacy. If you wish to permanently delete your account and all associated personal data, please follow the instructions below.</p>
+
+    <div class="steps-box">
+        <h2>Steps to Delete Your Account</h2>
+        <ol>
+            <li>Send an email to <a href="mailto:dowishapps@gmail.com" class="email-link">dowishapps@gmail.com</a>.</li>
+            <li>Use the subject line: <strong>"Delete My DoWish Account"</strong>.</li>
+            <li>Include the <strong>email address</strong> associated with your DoWish account in the body of the message.</li>
+        </ol>
+        <p><em>Our team will verify your identity and process your request within <strong>30 days</strong>.</em></p>
+    </div>
 
     <h2>Data That Will Be Deleted</h2>
     <ul>
-      <li>Your account information (name, email if provided)</li>
-      <li>Subscription and purchase history (except where required for legal or financial record-keeping)</li>
+        <li><strong>Profile Data:</strong> Your name, email address, and profile settings.</li>
+        <li><strong>Social Connections:</strong> Your friend list and pending requests.</li>
+        <li><strong>Subscription History:</strong> Records of your premium status (Note: Active subscriptions must be cancelled via the Google Play Store or Apple App Store).</li>
     </ul>
 
     <h2>Data That May Be Retained</h2>
-    <p>All wishes, messages, or other user-generated content you submitted may remain visible in the app for operational purposes.  
-    This content will no longer be linked to your account or any personal identifiers.  
-    Financial transactions or tax-related data may be retained for up to 7 years as required by law.</p>
+    <p>To maintain the experience for other users, <strong>Wishes</strong> or messages shared in communal spaces may remain visible but will be <strong>permanently anonymized</strong>. Your personal identity will be removed from this content. Financial or tax-related data may be retained for up to 7 years as required by law.</p>
 
-    <p>Account deletion requests are processed within 7 business days. You will receive a confirmation email once your account and associated personal data have been deleted.</p>
+    <div class="warning-box">
+        <strong>Important:</strong> Account deletion is permanent and irreversible. Once completed, you will lose access to all premium features and your data cannot be recovered.
+    </div>
 
-    <p>If you have any questions regarding the deletion of your account, contact us at <a href="mailto:dowish01@gmail.com">dowishapps@gmail.com</a>.</p>
+    <footer>
+        <p>&copy; 2026 DoWish. Developed by ZH LIEW. <br>
+        View our <a href="https://dowish01-support.github.io/DW/privacy.html" class="email-link">Privacy Policy</a>.</p>
+    </footer>
+</div>
 
-    <p>For more information, please see our <a href="https://dowish01-support.github.io/DW/" target="_blank">Privacy Policy</a>.</p>
-  </div>
 </body>
 </html>
